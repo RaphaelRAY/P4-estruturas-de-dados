@@ -1,0 +1,10 @@
+2 O codigo foi executado e realizou e hash porem nem todas as chaves foram possiveis colocar no tabelahash, pois o houve varias colisoes.
+
+3 Sim, houve colisões no código. As colisões ocorrem quando dois ou mais elementos mapeiam para o mesmo índice na tabela hash, ou seja, dois alunos têm o mesmo valor de hash.
+
+4 No código fornecido, as colisões são tratadas da seguinte maneira:
+    Quando uma colisão é detectada, o programa imprime uma mensagem indicando os nomes dos alunos envolvidos na colisão. Essa parte do código é responsável por informar que uma colisão ocorreu e quais alunos estão envolvidos.
+Sugestões para o tratamento das colisões:
+
+5 Utilizar uma técnica de resolução de colisões mais sofisticada, como chaining (encadeamento), que envolve o uso de listas ou estruturas de dados para armazenar elementos que colidem no mesmo índice. Isso permite que múltiplos elementos sejam armazenados no mesmo local da tabela hash e recuperados de maneira eficiente.
+Considere um método de rehashing para aumentar o tamanho da tabela hash e redistribuir os elementos quando a taxa de ocupação (quantidade de elementos armazenados em relação ao tamanho da tabela) atingir um limite predefinido. Isso ajuda a reduzir o potencial de colisões à medida que a tabela cresce.
